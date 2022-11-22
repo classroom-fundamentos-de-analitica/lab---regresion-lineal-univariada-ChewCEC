@@ -56,7 +56,7 @@ def pregunta_02():
     print(df['life'].mean().round(4))
 
     # Imprima el tipo de dato de la columna `fertility`.
-    print(df['fertility'].dtypes)
+    print(df['fertility'].dtype)
 
     # Imprima la correlación entre las columnas `GDP` y `life` con 4 decimales.
     print(df['GDP'].corr(df['life']).round(4))
@@ -146,3 +146,6 @@ def pregunta_04():
         X_test, y_test)))
     rmse = np.sqrt(mean_squared_error(y_test, y_pred))
     print("Root Mean Squared Error: {:6.4f}".format(rmse))
+
+
+pregunta_02()
