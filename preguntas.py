@@ -42,7 +42,6 @@ def pregunta_01():
 
 def pregunta_02():
     
-
     # Lea el archivo `gm_2008_region.csv` y asignelo al DataFrame `df`
     df = pd.read_csv("gm_2008_region.csv", sep=",")
 
